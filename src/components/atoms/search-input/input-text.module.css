@@ -1,0 +1,13 @@
+.headerSearch {
+    padding: 1rem;
+}
+
+.headerSearch input[type=text] {
+    padding:0 24px;
+    height: 56px;
+    width: 100%;
+    border-radius: 9px;
+    border: 0;
+    box-sizing:border-box;
+    background-color: #1A1A1F;
+}

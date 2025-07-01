@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.wrapper > main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.wrapper > header {
+  padding: 20px 10px;
+}
+
+.wrapper > footer {
+  position: fixed;
+  bottom: 0;
+  left: 0rem;
+  border-top: 1px solid gray;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}

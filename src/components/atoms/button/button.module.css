@@ -1,0 +1,5 @@
+.buttonBox button {
+    background-color: #1A1A1F;
+    border: 0;
+    color:var(--text-color)
+}

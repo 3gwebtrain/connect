@@ -1,0 +1,22 @@
+.checkBox {
+    display: inline;
+    color: var(--text-color)
+}
+
+.checkBox label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkBox input[type=checkbox] {
+    appearance: none;
+    border:1px solid rgb(86, 86, 91);
+    padding: 0.5rem;
+    vertical-align: text-bottom;
+}
+
+
+.checkBox input[type=checkbox]:checked {
+    background-color:  rgb(179, 247, 255);
+}
